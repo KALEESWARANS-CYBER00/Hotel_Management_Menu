@@ -104,8 +104,8 @@ public class main {
                 for (int i = 0; i < num; i++) {
                     System.out.println(i + 1 + "." + use + "      " + "     -->80.00");
                 }
-                System.out.println("TOTAL Prize :" + sum);
-                break;
+                System.out.println(" TOTAL Prize :" + sum);
+                break; 
             case "Wheat":
 
                 break;
