@@ -91,5 +91,29 @@ public class main {
                 break;
         }
 
+        switch (input1) {
+            case "Rice":
+                System.out.println("\n----------------------------------------");
+                System.out.print("PLEASE ENTER YOUR ORDER NAME IN Rice Item :");
+                String use = sc.nextLine();
+                System.out.print("PLEASE ENTER YOUR QUANTITY FOR " + use + " :");
+                int num = sc.nextInt();
+                int sum = 80 * num;
+                System.out.println("******---------Bill------*******");
+                System.out.println("----Order_Name----" + "      " + "----prize----");
+                for (int i = 0; i < num; i++) {
+                    System.out.println(i + 1 + "." + use + "      " + "     -->80.00");
+                }
+                System.out.println("TOTAL Prize :" + sum);
+                break;
+            case "Wheat":
+
+                break;
+            case "Maitha":
+
+                break;
+            default:
+                break;
+        }
     }
 }
