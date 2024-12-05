@@ -44,3 +44,4 @@ PLEASE ENTER YOUR QUANTITY FOR White Rice :2
 1.White Rice           -->80.00
 2.White Rice           -->80.00
  TOTAL Prize :160
+Testing SonarCloud Integration
